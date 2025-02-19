@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Requirements", "Requirement
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNETflixAPI.Domain", "Core\DotNETflixAPI.Domain\DotNETflixAPI.Domain.csproj", "{12380BEC-F08D-485A-B2B9-9AFECF3E1D28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNETflixAPI.Persistence", "Infrastructure\DotNETflixAPI.Persistence\DotNETflixAPI.Persistence.csproj", "{9E18D8A9-B04C-46C5-B99D-F76E96747F37}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,12 +27,17 @@ Global
 		{12380BEC-F08D-485A-B2B9-9AFECF3E1D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{12380BEC-F08D-485A-B2B9-9AFECF3E1D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{12380BEC-F08D-485A-B2B9-9AFECF3E1D28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E18D8A9-B04C-46C5-B99D-F76E96747F37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E18D8A9-B04C-46C5-B99D-F76E96747F37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E18D8A9-B04C-46C5-B99D-F76E96747F37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E18D8A9-B04C-46C5-B99D-F76E96747F37}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{12380BEC-F08D-485A-B2B9-9AFECF3E1D28} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{9E18D8A9-B04C-46C5-B99D-F76E96747F37} = {0256396B-3D21-4288-BCCD-5689AF841F47}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {67FA6F45-7F7A-4C64-8C03-55A82FA0F384}

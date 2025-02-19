@@ -7,10 +7,8 @@ using System.Threading.Tasks;
 
 namespace DotNETflixAPI.Domain.Entities
 {
-   public class Category : BaseEntity
+   public class Tag:BaseEntity
     {
-      
-        public string CategoryName { get; set; }
-
+        public string Title { get; set; }
     }
 }
