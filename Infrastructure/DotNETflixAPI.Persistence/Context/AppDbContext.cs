@@ -12,7 +12,7 @@ namespace DotNETflixAPI.Persistence.Context
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("Server=LENOVO;Database=DotNETflix;Trusted_Connection=True;");
+            optionsBuilder.UseSqlServer("Server=LENOVO;Database=DotNETflix;Trusted_Connection=True;TrustServerCertificate=True");
         }
 
         public DbSet<Movie> Movies { get; set; }
