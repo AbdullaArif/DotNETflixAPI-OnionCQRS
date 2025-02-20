@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <Folder Include="Features\CQRSDP\Handlers\CategoryHandlers\" />
+    <Folder Include="Features\CQRSDP\Handlers\MovieHandlers\" />
   </ItemGroup>
 
 </Project>
